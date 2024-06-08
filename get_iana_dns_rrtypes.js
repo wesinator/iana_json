@@ -8,7 +8,7 @@ for (var record of rr_tbl.children[1].children) {
             rtype: record.children[0].textContent,
             decimal_value: record.children[1].textContent,
             description: record.children[2].textContent,
-            rfc_info: record.children[3].textContent.trim().replaceAll("][", ", ").replaceAll('[', '').replaceAll(']', ''),
+            rfc_info: record.children[3].textContent.replaceAll("][", ", ").replaceAll('[', '').replaceAll(']', '').trim(),
             template: record.children[4].textContent.trim(),
             registration_date: record.children[5].textContent,
         });
