@@ -1,0 +1,722 @@
+[
+    {
+        "rtype": "Reserved",
+        "decimal_value": "0",
+        "description": "",
+        "rfc_info": "RFC6895",
+        "template": "",
+        "registration_date": "2021-03-08"
+    },
+    {
+        "rtype": "A",
+        "decimal_value": "1",
+        "description": "a host address",
+        "rfc_info": "RFC1035",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "NS",
+        "decimal_value": "2",
+        "description": "an authoritative name server",
+        "rfc_info": "RFC1035",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "CNAME",
+        "decimal_value": "5",
+        "description": "the canonical name for an alias",
+        "rfc_info": "RFC1035",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "SOA",
+        "decimal_value": "6",
+        "description": "marks the start of a zone of authority",
+        "rfc_info": "RFC1035",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "MB",
+        "decimal_value": "7",
+        "description": "a mailbox domain name (EXPERIMENTAL)",
+        "rfc_info": "RFC1035",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "MG",
+        "decimal_value": "8",
+        "description": "a mail group member (EXPERIMENTAL)",
+        "rfc_info": "RFC1035",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "MR",
+        "decimal_value": "9",
+        "description": "a mail rename domain name (EXPERIMENTAL)",
+        "rfc_info": "RFC1035",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "NULL",
+        "decimal_value": "10",
+        "description": "a null RR (EXPERIMENTAL)",
+        "rfc_info": "RFC1035",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "WKS",
+        "decimal_value": "11",
+        "description": "a well known service description",
+        "rfc_info": "RFC1035",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "PTR",
+        "decimal_value": "12",
+        "description": "a domain name pointer",
+        "rfc_info": "RFC1035",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "HINFO",
+        "decimal_value": "13",
+        "description": "host information",
+        "rfc_info": "RFC1035",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "MINFO",
+        "decimal_value": "14",
+        "description": "mailbox or mail list information",
+        "rfc_info": "RFC1035",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "MX",
+        "decimal_value": "15",
+        "description": "mail exchange",
+        "rfc_info": "RFC1035",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "TXT",
+        "decimal_value": "16",
+        "description": "text strings",
+        "rfc_info": "RFC1035",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "RP",
+        "decimal_value": "17",
+        "description": "for Responsible Person",
+        "rfc_info": "RFC1183",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "AFSDB",
+        "decimal_value": "18",
+        "description": "for AFS Data Base location",
+        "rfc_info": "RFC1183, RFC5864",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "X25",
+        "decimal_value": "19",
+        "description": "for X.25 PSDN address",
+        "rfc_info": "RFC1183",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "ISDN",
+        "decimal_value": "20",
+        "description": "for ISDN address",
+        "rfc_info": "RFC1183",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "RT",
+        "decimal_value": "21",
+        "description": "for Route Through",
+        "rfc_info": "RFC1183",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "SIG",
+        "decimal_value": "24",
+        "description": "for security signature",
+        "rfc_info": "RFC2536, RFC2931, RFC3110, RFC4034",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "KEY",
+        "decimal_value": "25",
+        "description": "for security key",
+        "rfc_info": "RFC2536, RFC2539, RFC3110, RFC4034",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "PX",
+        "decimal_value": "26",
+        "description": "X.400 mail mapping information",
+        "rfc_info": "RFC2163",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "GPOS",
+        "decimal_value": "27",
+        "description": "Geographical Position",
+        "rfc_info": "RFC1712",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "AAAA",
+        "decimal_value": "28",
+        "description": "IP6 Address",
+        "rfc_info": "RFC3596",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "LOC",
+        "decimal_value": "29",
+        "description": "Location Information",
+        "rfc_info": "RFC1876",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "EID",
+        "decimal_value": "31",
+        "description": "Endpoint Identifier",
+        "rfc_info": "Michael_Patton, http://ana-3.lcs.mit.edu/~jnc/nimrod/dns.txt",
+        "template": "",
+        "registration_date": "1995-06"
+    },
+    {
+        "rtype": "NIMLOC",
+        "decimal_value": "32",
+        "description": "Nimrod Locator",
+        "rfc_info": "1, Michael_Patton, http://ana-3.lcs.mit.edu/~jnc/nimrod/dns.txt",
+        "template": "",
+        "registration_date": "1995-06"
+    },
+    {
+        "rtype": "SRV",
+        "decimal_value": "33",
+        "description": "Server Selection",
+        "rfc_info": "1, RFC2782",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "ATMA",
+        "decimal_value": "34",
+        "description": "ATM Address",
+        "rfc_info": "\n        ATM Forum Technical Committee, \"ATM Name System, V2.0\", Doc ID: AF-DANS-0152.000, July 2000. Available from and held in escrow by IANA.",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "NAPTR",
+        "decimal_value": "35",
+        "description": "Naming Authority Pointer",
+        "rfc_info": "RFC3403",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "KX",
+        "decimal_value": "36",
+        "description": "Key Exchanger",
+        "rfc_info": "RFC2230",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "CERT",
+        "decimal_value": "37",
+        "description": "CERT",
+        "rfc_info": "RFC4398",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "DNAME",
+        "decimal_value": "39",
+        "description": "DNAME",
+        "rfc_info": "RFC6672",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "SINK",
+        "decimal_value": "40",
+        "description": "SINK",
+        "rfc_info": "Donald_E_Eastlake, draft-eastlake-kitchen-sink",
+        "template": "",
+        "registration_date": "1997-11"
+    },
+    {
+        "rtype": "OPT",
+        "decimal_value": "41",
+        "description": "OPT",
+        "rfc_info": "RFC3225, RFC6891",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "APL",
+        "decimal_value": "42",
+        "description": "APL",
+        "rfc_info": "RFC3123",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "DS",
+        "decimal_value": "43",
+        "description": "Delegation Signer",
+        "rfc_info": "RFC4034",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "SSHFP",
+        "decimal_value": "44",
+        "description": "SSH Key Fingerprint",
+        "rfc_info": "RFC4255",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "IPSECKEY",
+        "decimal_value": "45",
+        "description": "IPSECKEY",
+        "rfc_info": "RFC4025",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "RRSIG",
+        "decimal_value": "46",
+        "description": "RRSIG",
+        "rfc_info": "RFC4034",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "NSEC",
+        "decimal_value": "47",
+        "description": "NSEC",
+        "rfc_info": "RFC4034, RFC9077",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "DNSKEY",
+        "decimal_value": "48",
+        "description": "DNSKEY",
+        "rfc_info": "RFC4034",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "DHCID",
+        "decimal_value": "49",
+        "description": "DHCID",
+        "rfc_info": "RFC4701",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "NSEC3",
+        "decimal_value": "50",
+        "description": "NSEC3",
+        "rfc_info": "RFC5155, RFC9077",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "NSEC3PARAM",
+        "decimal_value": "51",
+        "description": "NSEC3PARAM",
+        "rfc_info": "RFC5155",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "TLSA",
+        "decimal_value": "52",
+        "description": "TLSA",
+        "rfc_info": "RFC6698",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "SMIMEA",
+        "decimal_value": "53",
+        "description": "S/MIME cert association",
+        "rfc_info": "RFC8162",
+        "template": "SMIMEA/smimea-completed-template",
+        "registration_date": "2015-12-01"
+    },
+    {
+        "rtype": "Unassigned",
+        "decimal_value": "54",
+        "description": "",
+        "rfc_info": "",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "HIP",
+        "decimal_value": "55",
+        "description": "Host Identity Protocol",
+        "rfc_info": "RFC8005",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "NINFO",
+        "decimal_value": "56",
+        "description": "NINFO",
+        "rfc_info": "Jim_Reid",
+        "template": "NINFO/ninfo-completed-template",
+        "registration_date": "2008-01-21"
+    },
+    {
+        "rtype": "RKEY",
+        "decimal_value": "57",
+        "description": "RKEY",
+        "rfc_info": "Jim_Reid",
+        "template": "RKEY/rkey-completed-template",
+        "registration_date": "2008-01-21"
+    },
+    {
+        "rtype": "TALINK",
+        "decimal_value": "58",
+        "description": "Trust Anchor LINK",
+        "rfc_info": "Wouter_Wijngaards",
+        "template": "TALINK/talink-completed-template",
+        "registration_date": "2010-02-17"
+    },
+    {
+        "rtype": "CDS",
+        "decimal_value": "59",
+        "description": "Child DS",
+        "rfc_info": "RFC7344",
+        "template": "CDS/cds-completed-template",
+        "registration_date": "2011-06-06"
+    },
+    {
+        "rtype": "CDNSKEY",
+        "decimal_value": "60",
+        "description": "DNSKEY(s) the Child wants reflected in DS",
+        "rfc_info": "RFC7344",
+        "template": "",
+        "registration_date": "2014-06-16"
+    },
+    {
+        "rtype": "OPENPGPKEY",
+        "decimal_value": "61",
+        "description": "OpenPGP Key",
+        "rfc_info": "RFC7929",
+        "template": "OPENPGPKEY/openpgpkey-completed-template",
+        "registration_date": "2014-08-12"
+    },
+    {
+        "rtype": "CSYNC",
+        "decimal_value": "62",
+        "description": "Child-To-Parent Synchronization",
+        "rfc_info": "RFC7477",
+        "template": "",
+        "registration_date": "2015-01-27"
+    },
+    {
+        "rtype": "ZONEMD",
+        "decimal_value": "63",
+        "description": "Message Digest Over Zone Data",
+        "rfc_info": "RFC8976",
+        "template": "ZONEMD/zonemd-completed-template",
+        "registration_date": "2018-12-12"
+    },
+    {
+        "rtype": "SVCB",
+        "decimal_value": "64",
+        "description": "General-purpose service binding",
+        "rfc_info": "RFC9460",
+        "template": "SVCB/svcb-completed-template",
+        "registration_date": "2020-06-30"
+    },
+    {
+        "rtype": "HTTPS",
+        "decimal_value": "65",
+        "description": "SVCB-compatible type for use with HTTP",
+        "rfc_info": "RFC9460",
+        "template": "HTTPS/https-completed-template",
+        "registration_date": "2020-06-30"
+    },
+    {
+        "rtype": "Unassigned",
+        "decimal_value": "66-98",
+        "description": "",
+        "rfc_info": "",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "SPF",
+        "decimal_value": "99",
+        "description": "",
+        "rfc_info": "RFC7208",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "UINFO",
+        "decimal_value": "100",
+        "description": "",
+        "rfc_info": "IANA-Reserved",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "UID",
+        "decimal_value": "101",
+        "description": "",
+        "rfc_info": "IANA-Reserved",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "GID",
+        "decimal_value": "102",
+        "description": "",
+        "rfc_info": "IANA-Reserved",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "UNSPEC",
+        "decimal_value": "103",
+        "description": "",
+        "rfc_info": "IANA-Reserved",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "NID",
+        "decimal_value": "104",
+        "description": "",
+        "rfc_info": "RFC6742",
+        "template": "ILNP/nid-completed-template",
+        "registration_date": ""
+    },
+    {
+        "rtype": "L32",
+        "decimal_value": "105",
+        "description": "",
+        "rfc_info": "RFC6742",
+        "template": "ILNP/l32-completed-template",
+        "registration_date": ""
+    },
+    {
+        "rtype": "L64",
+        "decimal_value": "106",
+        "description": "",
+        "rfc_info": "RFC6742",
+        "template": "ILNP/l64-completed-template",
+        "registration_date": ""
+    },
+    {
+        "rtype": "LP",
+        "decimal_value": "107",
+        "description": "",
+        "rfc_info": "RFC6742",
+        "template": "ILNP/lp-completed-template",
+        "registration_date": ""
+    },
+    {
+        "rtype": "EUI48",
+        "decimal_value": "108",
+        "description": "an EUI-48 address",
+        "rfc_info": "RFC7043",
+        "template": "EUI48/eui48-completed-template",
+        "registration_date": "2013-03-27"
+    },
+    {
+        "rtype": "EUI64",
+        "decimal_value": "109",
+        "description": "an EUI-64 address",
+        "rfc_info": "RFC7043",
+        "template": "EUI64/eui64-completed-template",
+        "registration_date": "2013-03-27"
+    },
+    {
+        "rtype": "Unassigned",
+        "decimal_value": "110-248",
+        "description": "",
+        "rfc_info": "",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "TKEY",
+        "decimal_value": "249",
+        "description": "Transaction Key",
+        "rfc_info": "RFC2930",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "TSIG",
+        "decimal_value": "250",
+        "description": "Transaction Signature",
+        "rfc_info": "RFC8945",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "IXFR",
+        "decimal_value": "251",
+        "description": "incremental transfer",
+        "rfc_info": "RFC1995",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "AXFR",
+        "decimal_value": "252",
+        "description": "transfer of an entire zone",
+        "rfc_info": "RFC1035, RFC5936",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "MAILB",
+        "decimal_value": "253",
+        "description": "mailbox-related RRs (MB, MG or MR)",
+        "rfc_info": "RFC1035",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "*",
+        "decimal_value": "255",
+        "description": "A request for some or all records the server has available",
+        "rfc_info": "RFC1035, RFC6895, RFC8482",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "URI",
+        "decimal_value": "256",
+        "description": "URI",
+        "rfc_info": "RFC7553",
+        "template": "URI/uri-completed-template",
+        "registration_date": "2011-02-22"
+    },
+    {
+        "rtype": "CAA",
+        "decimal_value": "257",
+        "description": "Certification Authority Restriction",
+        "rfc_info": "RFC8659",
+        "template": "CAA/caa-completed-template",
+        "registration_date": "2011-04-07"
+    },
+    {
+        "rtype": "AVC",
+        "decimal_value": "258",
+        "description": "Application Visibility and Control",
+        "rfc_info": "Wolfgang_Riedel",
+        "template": "AVC/avc-completed-template",
+        "registration_date": "2016-02-26"
+    },
+    {
+        "rtype": "DOA",
+        "decimal_value": "259",
+        "description": "Digital Object Architecture",
+        "rfc_info": "draft-durand-doa-over-dns",
+        "template": "DOA/doa-completed-template",
+        "registration_date": "2017-08-30"
+    },
+    {
+        "rtype": "AMTRELAY",
+        "decimal_value": "260",
+        "description": "Automatic Multicast Tunneling Relay",
+        "rfc_info": "RFC8777",
+        "template": "AMTRELAY/amtrelay-completed-template",
+        "registration_date": "2019-02-06"
+    },
+    {
+        "rtype": "RESINFO",
+        "decimal_value": "261",
+        "description": "Resolver Information as Key/Value Pairs",
+        "rfc_info": "RFC-ietf-add-resolver-info-13",
+        "template": "RESINFO/resinfo-completed-template",
+        "registration_date": "2023-11-02"
+    },
+    {
+        "rtype": "Unassigned",
+        "decimal_value": "262-32767",
+        "description": "",
+        "rfc_info": "",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "TA",
+        "decimal_value": "32768",
+        "description": "DNSSEC Trust Authorities",
+        "rfc_info": "Sam_Weiler, \n        Deploying DNSSEC Without a Signed Root.  Technical Report 1999-19,\nInformation Networking Institute, Carnegie Mellon University, April 2004.",
+        "template": "",
+        "registration_date": "2005-12-13"
+    },
+    {
+        "rtype": "Unassigned",
+        "decimal_value": "32770-65279",
+        "description": "",
+        "rfc_info": "",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "Private use",
+        "decimal_value": "65280-65534",
+        "description": "",
+        "rfc_info": "",
+        "template": "",
+        "registration_date": ""
+    },
+    {
+        "rtype": "Reserved",
+        "decimal_value": "65535",
+        "description": "",
+        "rfc_info": "",
+        "template": "",
+        "registration_date": ""
+    }
+]
