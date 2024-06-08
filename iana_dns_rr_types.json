@@ -235,7 +235,7 @@
         "rtype": "ATMA",
         "decimal_value": "34",
         "description": "ATM Address",
-        "rfc_info": "\n        ATM Forum Technical Committee, \"ATM Name System, V2.0\", Doc ID: AF-DANS-0152.000, July 2000. Available from and held in escrow by IANA.",
+        "rfc_info": "ATM Forum Technical Committee, \"ATM Name System, V2.0\", Doc ID: AF-DANS-0152.000, July 2000. Available from and held in escrow by IANA.",
         "template": "",
         "registration_date": ""
     },
