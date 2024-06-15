@@ -40,38 +40,6 @@
         "registration_date": ""
     },
     {
-        "rtype": "MB",
-        "decimal_value": "7",
-        "description": "a mailbox domain name (EXPERIMENTAL)",
-        "rfc_info": "RFC1035",
-        "template": "",
-        "registration_date": ""
-    },
-    {
-        "rtype": "MG",
-        "decimal_value": "8",
-        "description": "a mail group member (EXPERIMENTAL)",
-        "rfc_info": "RFC1035",
-        "template": "",
-        "registration_date": ""
-    },
-    {
-        "rtype": "MR",
-        "decimal_value": "9",
-        "description": "a mail rename domain name (EXPERIMENTAL)",
-        "rfc_info": "RFC1035",
-        "template": "",
-        "registration_date": ""
-    },
-    {
-        "rtype": "NULL",
-        "decimal_value": "10",
-        "description": "a null RR (EXPERIMENTAL)",
-        "rfc_info": "RFC1035",
-        "template": "",
-        "registration_date": ""
-    },
-    {
         "rtype": "WKS",
         "decimal_value": "11",
         "description": "a well known service description",

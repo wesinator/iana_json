@@ -3,7 +3,7 @@ var rr_tbl = document.getElementById("table-dns-parameters-4");
 var records = []
 for (var record of rr_tbl.children[1].children) {
     
-    if (!record.children[2].textContent.toUpperCase().includes("DEPRECATED") && !record.children[2].textContent.toUpperCase().includes("OBSOLETE")) {
+    if (!["DEPRECATED", "EXPERIMENTAL", "OBSOLETE"].some(excluded_keyword => record.children[2].textContent.toUpperCase().includes(excluded_keyword))) {
         records.push({
             rtype: record.children[0].textContent,
             decimal_value: record.children[1].textContent,
