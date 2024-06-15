@@ -5,8 +5,7 @@ https://www.iana.org/assignments/dns-parameters/dns-parameters.xhtml#dns-paramet
 
 Inspired by https://github.com/sjobe/dns_record_type_json
 
-#### Data Scraping Notes
- - current dataset does not include rtypes that are noted on the IANA source as OBSOLETE or DEPRECATED
+The dns_rrtypes_full file includes rrtypes that are noted on IANA as OBSOLETE, DEPRECATED or EXPERIMENTAL.
 
 #### DNS usage notes
  - rtype id 255 is typically represented with the query keyword `ANY`
