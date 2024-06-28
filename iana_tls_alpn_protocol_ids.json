@@ -186,7 +186,7 @@
     },
     {
         "protocol": "OASIS Message Queuing Telemetry Transport (MQTT)",
-        "identification_sequence": "0x6d 0x71 0x74 0x74 (“mqtt”)",
+        "identification_sequence": "0x6d 0x71 0x74 0x74 (\"mqtt\")",
         "reference": "http://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html"
     },
     {
@@ -211,7 +211,7 @@
     },
     {
         "protocol": "SMB2",
-        "identification_sequence": "0x73 0x6D 0x62 (“smb”)",
+        "identification_sequence": "0x73 0x6D 0x62 (\"smb\")",
         "reference": "https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-smb2/5606ad47-5ee0-437a-817e-70c366052962"
     },
     {
