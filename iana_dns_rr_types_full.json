@@ -260,7 +260,7 @@
         "value": "32",
         "meaning": "Nimrod Locator",
         "reference": "Michael_Patton, http://ana-3.lcs.mit.edu/~jnc/nimrod/dns.txt",
-        "note": "In [RFC1002], two types are defined.  It is not clear that these\nare in use, though if so their assignment does conflict with those \nabove.\n\nNB      32      NetBIOS general Name Service\nNBSTAT  33      NetBIOS NODE STATUS",
+        "note": "In RFC1002, two types are defined.  It is not clear that these\nare in use, though if so their assignment does conflict with those \nabove.\n\nNB      32      NetBIOS general Name Service\nNBSTAT  33      NetBIOS NODE STATUS",
         "template": "",
         "registration_date": "1995-06"
     },
@@ -269,7 +269,7 @@
         "value": "33",
         "meaning": "Server Selection",
         "reference": "RFC2782",
-        "note": "In [RFC1002], two types are defined.  It is not clear that these\nare in use, though if so their assignment does conflict with those \nabove.\n\nNB      32      NetBIOS general Name Service\nNBSTAT  33      NetBIOS NODE STATUS",
+        "note": "In RFC1002, two types are defined.  It is not clear that these\nare in use, though if so their assignment does conflict with those \nabove.\n\nNB      32      NetBIOS general Name Service\nNBSTAT  33      NetBIOS NODE STATUS",
         "template": "",
         "registration_date": ""
     },
