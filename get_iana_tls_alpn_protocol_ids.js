@@ -12,7 +12,7 @@ for (var record of rr_tbl.children[1].children) {
     }
 
     // check for note field in column 3
-    reference_firstLink = record.children[2].children[0].attributes[0].nodeValue;
+    reference_firstLink = reference.children[0].attributes[0].nodeValue;
     if (reference_firstLink.startsWith('#'))
         obj.note = document.getElementById(reference_firstLink.slice(1)).parentElement.nextElementSibling.innerText.trim();
 
