@@ -1,13 +1,13 @@
 // https://www.iana.org/assignments/tls-extensiontype-values/tls-extensiontype-values.xhtml#alpn-protocol-ids
 
-var rr_tbl = document.getElementById("table-alpn-protocol-ids");
+var tbl = document.getElementById("table-alpn-protocol-ids");
 
 var records = []
-for (var record of rr_tbl.children[1].children) {
-    reference = record.children[2];
+for (var item of tbl.children[1].children) {
+    reference = item.children[2];
     obj = {
-        protocol: record.children[0].textContent,
-        identification_sequence: record.children[1].textContent,
+        protocol: item.children[0].textContent,
+        identification_sequence: item.children[1].textContent,
         reference: reference.textContent.replaceAll("][", ", ").replaceAll('[', '').replaceAll(']', '').trim(),
     }
 
