@@ -1,0 +1,257 @@
+[
+    {
+        "protocol": "Reserved",
+        "identification_sequence": "0x0A 0x0A",
+        "reference": "RFC8701"
+    },
+    {
+        "protocol": "Reserved",
+        "identification_sequence": "0x1A 0x1A",
+        "reference": "RFC8701"
+    },
+    {
+        "protocol": "Reserved",
+        "identification_sequence": "0x2A 0x2A",
+        "reference": "RFC8701"
+    },
+    {
+        "protocol": "Reserved",
+        "identification_sequence": "0x3A 0x3A",
+        "reference": "RFC8701"
+    },
+    {
+        "protocol": "Reserved",
+        "identification_sequence": "0x4A 0x4A",
+        "reference": "RFC8701"
+    },
+    {
+        "protocol": "Reserved",
+        "identification_sequence": "0x5A 0x5A",
+        "reference": "RFC8701"
+    },
+    {
+        "protocol": "Reserved",
+        "identification_sequence": "0x6A 0x6A",
+        "reference": "RFC8701"
+    },
+    {
+        "protocol": "Reserved",
+        "identification_sequence": "0x7A 0x7A",
+        "reference": "RFC8701"
+    },
+    {
+        "protocol": "Reserved",
+        "identification_sequence": "0x8A 0x8A",
+        "reference": "RFC8701"
+    },
+    {
+        "protocol": "Reserved",
+        "identification_sequence": "0x9A 0x9A",
+        "reference": "RFC8701"
+    },
+    {
+        "protocol": "Reserved",
+        "identification_sequence": "0xAA 0xAA",
+        "reference": "RFC8701"
+    },
+    {
+        "protocol": "Reserved",
+        "identification_sequence": "0xBA 0xBA",
+        "reference": "RFC8701"
+    },
+    {
+        "protocol": "Reserved",
+        "identification_sequence": "0xCA 0xCA",
+        "reference": "RFC8701"
+    },
+    {
+        "protocol": "Reserved",
+        "identification_sequence": "0xDA 0xDA",
+        "reference": "RFC8701"
+    },
+    {
+        "protocol": "Reserved",
+        "identification_sequence": "0xEA 0xEA",
+        "reference": "RFC8701"
+    },
+    {
+        "protocol": "Reserved",
+        "identification_sequence": "0xFA 0xFA",
+        "reference": "RFC8701"
+    },
+    {
+        "protocol": "HTTP/0.9",
+        "identification_sequence": "0x68 0x74 0x74 0x70 0x2f 0x30 0x2e 0x39 (\"http/0.9\")",
+        "reference": "RFC1945"
+    },
+    {
+        "protocol": "HTTP/1.0",
+        "identification_sequence": "0x68 0x74 0x74 0x70 0x2f 0x31 0x2e 0x30 (\"http/1.0\")",
+        "reference": "RFC1945"
+    },
+    {
+        "protocol": "HTTP/1.1",
+        "identification_sequence": "0x68 0x74 0x74 0x70 0x2f 0x31 0x2e 0x31 (\"http/1.1\")",
+        "reference": "RFC9112"
+    },
+    {
+        "protocol": "SPDY/1",
+        "identification_sequence": "0x73 0x70 0x64 0x79 0x2f 0x31 (\"spdy/1\")",
+        "reference": "http://dev.chromium.org/spdy/spdy-protocol/spdy-protocol-draft1"
+    },
+    {
+        "protocol": "SPDY/2",
+        "identification_sequence": "0x73 0x70 0x64 0x79 0x2f 0x32 (\"spdy/2\")",
+        "reference": "http://dev.chromium.org/spdy/spdy-protocol/spdy-protocol-draft2"
+    },
+    {
+        "protocol": "SPDY/3",
+        "identification_sequence": "0x73 0x70 0x64 0x79 0x2f 0x33 (\"spdy/3\")",
+        "reference": "http://dev.chromium.org/spdy/spdy-protocol/spdy-protocol-draft3"
+    },
+    {
+        "protocol": "Traversal Using Relays around NAT (TURN)",
+        "identification_sequence": "0x73 0x74 0x75 0x6E 0x2E 0x74 0x75 0x72 0x6E (\"stun.turn\")",
+        "reference": "RFC7443"
+    },
+    {
+        "protocol": "NAT discovery using Session Traversal Utilities for NAT (STUN)",
+        "identification_sequence": "0x73 0x74 0x75 0x6E 0x2E 0x6e 0x61 0x74 0x2d 0x64 0x69 0x73 0x63 0x6f 0x76 0x65 0x72 0x79 (\"stun.nat-discovery\")",
+        "reference": "RFC7443"
+    },
+    {
+        "protocol": "HTTP/2 over TLS",
+        "identification_sequence": "0x68 0x32 (\"h2\")",
+        "reference": "RFC9113"
+    },
+    {
+        "protocol": "HTTP/2 over TCP",
+        "identification_sequence": "0x68 0x32 0x63 (\"h2c\")",
+        "reference": "1, RFC9113"
+    },
+    {
+        "protocol": "WebRTC Media and Data",
+        "identification_sequence": "0x77 0x65 0x62 0x72 0x74 0x63 (\"webrtc\")",
+        "reference": "RFC8833"
+    },
+    {
+        "protocol": "Confidential WebRTC Media and Data",
+        "identification_sequence": "0x63 0x2d 0x77 0x65 0x62 0x72 0x74 0x63 (\"c-webrtc\")",
+        "reference": "RFC8833"
+    },
+    {
+        "protocol": "FTP",
+        "identification_sequence": "0x66 0x74 0x70 (\"ftp\")",
+        "reference": "RFC959, RFC4217"
+    },
+    {
+        "protocol": "IMAP",
+        "identification_sequence": "0x69 0x6d 0x61 0x70 (\"imap\")",
+        "reference": "RFC2595"
+    },
+    {
+        "protocol": "POP3",
+        "identification_sequence": "0x70 0x6f 0x70 0x33 (\"pop3\")",
+        "reference": "RFC2595"
+    },
+    {
+        "protocol": "ManageSieve",
+        "identification_sequence": "0x6d 0x61 0x6e 0x61 0x67 0x65 0x73 0x69 0x65 0x76 0x65 (\"managesieve\")",
+        "reference": "RFC5804"
+    },
+    {
+        "protocol": "CoAP (over TLS)",
+        "identification_sequence": "0x63 0x6f 0x61 0x70 (\"coap\")",
+        "reference": "RFC8323"
+    },
+    {
+        "protocol": "CoAP (over DTLS)",
+        "identification_sequence": "0x63 0x6f (\"co\")",
+        "reference": "draft-lenders-core-coap-dtls-svcb-00"
+    },
+    {
+        "protocol": "XMPP jabber:client namespace",
+        "identification_sequence": "0x78 0x6d 0x70 0x70 0x2d 0x63 0x6c 0x69 0x65 0x6e 0x74 (\"xmpp-client\")",
+        "reference": "https://xmpp.org/extensions/xep-0368.html"
+    },
+    {
+        "protocol": "XMPP jabber:server namespace",
+        "identification_sequence": "0x78 0x6d 0x70 0x70 0x2d 0x73 0x65 0x72 0x76 0x65 0x72 (\"xmpp-server\")",
+        "reference": "https://xmpp.org/extensions/xep-0368.html"
+    },
+    {
+        "protocol": "acme-tls/1",
+        "identification_sequence": "0x61 0x63 0x6d 0x65 0x2d 0x74 0x6c 0x73 0x2f 0x31 (\"acme-tls/1\")",
+        "reference": "RFC8737"
+    },
+    {
+        "protocol": "OASIS Message Queuing Telemetry Transport (MQTT)",
+        "identification_sequence": "0x6d 0x71 0x74 0x74 (“mqtt”)",
+        "reference": "http://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.html"
+    },
+    {
+        "protocol": "DNS-over-TLS",
+        "identification_sequence": "0x64 0x6F 0x74 (\"dot\")",
+        "reference": "RFC7858"
+    },
+    {
+        "protocol": "Network Time Security Key Establishment, version 1",
+        "identification_sequence": "0x6E 0x74 0x73 0x6B 0x65 0x2F 0x31 (\"ntske/1\")",
+        "reference": "RFC8915, Section 4"
+    },
+    {
+        "protocol": "SunRPC",
+        "identification_sequence": "0x73 0x75 0x6e 0x72 0x70 0x63 (\"sunrpc\")",
+        "reference": "RFC9289"
+    },
+    {
+        "protocol": "HTTP/3",
+        "identification_sequence": "0x68 0x33 (\"h3\")",
+        "reference": "RFC9114"
+    },
+    {
+        "protocol": "SMB2",
+        "identification_sequence": "0x73 0x6D 0x62 (“smb”)",
+        "reference": "https://docs.microsoft.com/en-us/openspecs/windows_protocols/ms-smb2/5606ad47-5ee0-437a-817e-70c366052962"
+    },
+    {
+        "protocol": "IRC",
+        "identification_sequence": "0x69 0x72 0x63 (\"irc\")",
+        "reference": "RFC1459"
+    },
+    {
+        "protocol": "NNTP (reading)",
+        "identification_sequence": "0x6E 0x6E 0x74 0x70 (\"nntp\")",
+        "reference": "RFC3977"
+    },
+    {
+        "protocol": "NNTP (transit)",
+        "identification_sequence": "0x6E 0x6E 0x73 0x70 (\"nnsp\")",
+        "reference": "RFC3977"
+    },
+    {
+        "protocol": "DoQ",
+        "identification_sequence": "0x64 0x6F 0x71 (\"doq\")",
+        "reference": "RFC9250"
+    },
+    {
+        "protocol": "SIP",
+        "identification_sequence": "0x73 0x69 0x70 0x2f 0x32 (\"sip/2\")",
+        "reference": "RFC3261"
+    },
+    {
+        "protocol": "TDS/8.0",
+        "identification_sequence": "0x74 0x64 0x73 0x2f 0x38 0x2e 0x30 (\"tds/8.0\")",
+        "reference": "MS-TDS: Tabular Data Stream Protocol"
+    },
+    {
+        "protocol": "DICOM",
+        "identification_sequence": "0x64 0x69 0x63 0x6f 0x6d (\"dicom\")",
+        "reference": "https://www.dicomstandard.org/current"
+    },
+    {
+        "protocol": "PostgreSQL",
+        "identification_sequence": "0x70 0x6F 0x73 0x74 0x67 0x72 0x65 0x73 0x71 0x6C (\"postgresql\")",
+        "reference": "https://www.postgresql.org/docs/current/protocol.html"
+    }
+]
