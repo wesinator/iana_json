@@ -1,8 +1,8 @@
+// https://www.iana.org/assignments/dns-parameters/dns-parameters.xhtml#dns-parameters-4
 var rr_tbl = document.getElementById("table-dns-parameters-4");
 
 var records = []
-for (var record of rr_tbl.children[1].children) {
-    
+for (var record of rr_tbl.children[1].children) {  
     if (!["DEPRECATED", "EXPERIMENTAL", "OBSOLETE"].some(excluded_keyword => record.children[2].textContent.toUpperCase().includes(excluded_keyword))) {
         records.push({
             rtype: record.children[0].textContent,
