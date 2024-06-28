@@ -127,7 +127,7 @@
     {
         "protocol": "HTTP/2 over TCP",
         "identification_sequence": "0x68 0x32 0x63 (\"h2c\")",
-        "reference": "1, RFC9113",
+        "reference": "RFC9113",
         "note": "This entry reserves an identifier for use within a cleartext version \nof a protocol and is not allowed to appear in a TLS ALPN negotiation."
     },
     {
