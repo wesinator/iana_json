@@ -26,7 +26,7 @@ function ianaTableJson(table_id) {
           // check for note field in column 3
           reference_firstLink = current_item.children[0].attributes[0].nodeValue;
           if (reference_firstLink.startsWith('#note')) {
-            obj.note = document.getElementById(reference_firstLink.slice(1)).parentElement.nextElementSibling.innerText.trim();
+            obj.note = document.getElementById(reference_firstLink.slice(1)).parentElement.nextElementSibling.innerText.trim().replaceAll('[', '').replaceAll(']', '');
 
             // remove the leading footnote in ref `n, `
             obj.reference = obj.reference.slice(3);
